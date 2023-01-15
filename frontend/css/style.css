@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'ubuntu',sans-serif;
+    color: white;
+}
+.container
+{
+    max-width: 60vw;
+    min-height: 70vh;
+}
+
+.mx-auto
+{
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("https://img.freepik.com/free-photo/navy-blue-concrete-wall-with-scratches_53876-102666.jpg?w=1380&t=st=1673707149~exp=1673707749~hmac=bd18ae58348ccfb57f83009d0cd23dc9b6a0616f4bf3d0951f22f23b2ef66119");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.logo
+{
+    display: block;
+    margin-left: 1vh;
+    width: 5vw;
+    height: 5vh;
+}
+
+.bar
+{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    min-height: 8vh;
+    background-color: black;
+
+
+}
+.messagesbox
+{
+    
+    display: flex;
+    flex-direction: column;
+    min-height: 83vh;
+    max-height: 83vh;
+    overflow-y: auto;
+
+}
+
+.mes-con
+{
+    font-size: 20px;
+    margin-left: 1vw;
+    width: 80%;
+    height: 5vh;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: rgb(46, 37, 37);
+}   
+
+.emoji
+{
+    margin-left: 1vw;
+    border: none;
+    border-radius: 20px;
+    font-size: 5vh;
+    background-color: black;
+    cursor: pointer;
+}
+
+.emoji h1
+{
+    font-size: 5vh;
+}
+
+.emoji:hover
+{
+    
+    background-color: rgb(51, 45, 45);
+}
+
+.send
+{
+   margin-left: 3vh;
+   color: monochrome;
+}
+
+.message
+{
+    border: 2px solid black;
+    padding: 1vh 2vw;
+    width: 15vw;
+
+    border-radius: 10px;
+    margin-top: 3vh;
+    margin-left: 4vw;
+    background-color: hwb(0 27% 67%);
+}
+
+
+.navbar h1
+{
+    font-size: 2vw;
+}
+
+.left
+{
+    display: flex;
+    align-self: flex-start  ;
+
+}
+
+.right
+{
+    display: flex;
+    align-self: flex-end;
+    margin-right: 4vw !important;
+}
+
+.chat
+{
+    min-height: 9vh;
+    display: flex;
+    background-color: black;
+    align-items: center;
+}
+
+body{
+    background-image: linear-gradient(rgb(255, 255, 255),rgb(8, 94, 187));
+}
