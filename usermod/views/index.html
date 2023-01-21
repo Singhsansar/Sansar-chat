@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+    <style>
+
+    </style>
+</head>
+<body>
+    <div class="navbarc">
+        <header class="header">
+            <nav class="navbarc navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"><h2 class="logo">Sansar</h2></a>
+
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled">Disabled</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="search">
+                      <form class="d-flex" role="search">
+                        <input class="input" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn" type="submit">Search</button>
+                      </form>
+                    </div>
+        </header>
+    </div>
+
+
+       <section class="main">
+        <div class="div2">
+            <form action="http://localhost:4500/Homepage" class="form" method="POST">
+                <h1>Login</h1>
+                <input name="email" type="email" placeholder="Email" required>
+                <input name="password" type="password" placeholder="password" required>
+                <div><input type="submit" class="btn2" placeholder="Submit"></div>
+                <div class="have-account"><a href="http://localhost:4500/register">Don't have account? Login</a></div>
+            </form>
+        </div>
+       
+       </section>
+
+</body>
+</html> 

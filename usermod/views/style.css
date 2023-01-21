@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    font-family: 'Ubuntu', sans-serif;
+    color: white !important;
+    margin-right: auto;
+
+}
+.navbarc
+{
+    font-size: 1.5rem !important;
+    background-color: black !important;
+    /* color: white; */
+    
+}
+.logo
+{
+    color: rgb(13, 16, 212) !important;
+}
+
+.search button
+{
+    display: flex;
+    color: white !important;
+    border: 2px solid white;
+}
+
+.search input
+{
+    margin-right: 1.5rem;
+    border: 2px solid white;
+    color: black !important;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+.search form 
+{
+    margin-right: 10rem;
+    display: flex;
+    margin-left: 20px !important;
+}
+
+.search button:hover
+{
+    background-color: rgb(103, 97, 97);
+}
+
+.main
+{
+    background-color: purple;
+    min-height: 100vh;
+}   
+
+
+.form input
+{
+    border-radius: 10px;
+    width: 20vw;
+    height: 3rem;
+    margin-bottom: 1rem;
+    /* background-color: brown; */
+    color: black !important;
+    
+}
+
+.btn2 
+{
+    width: 5rem !important;
+    border: 3px solid white ;
+    border-radius: 7px;
+    align-self: center ;
+}
+
+.div2
+{
+    text-align: center;
+    position: absolute;
+    top: 20vh ; 
+    right: 16vh;
+    width: 29vw;
+    height: 60vh; 
+    /* border: 2px solid red; */
+    border-radius: 70px;
+    background-color: rgba(0,0,0, 0.8);
+}
+
+.form
+{
+    margin-top: 10vh;
+    
+}
+

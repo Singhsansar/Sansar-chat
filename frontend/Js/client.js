@@ -6,7 +6,7 @@ const container = document.querySelector(".messagesbox")
 console.log(container.innerHTML)
 socket.emit('new-user-joined', name)
 var audio = new Audio("ting.mp3");
-audio.play();
+
 const append = (message, position) => {
     const messageElement = document.createElement('div')
     messageElement.innerHTML = message;
@@ -17,7 +17,7 @@ const append = (message, position) => {
 
     if(position  ==='left')
     {
-        
+        audio.play();
     }
 
 }

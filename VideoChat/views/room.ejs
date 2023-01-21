@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videocall</title>
+    <script defer src="https://unpkg.com/peerjs@1.4.7/dist/peerjs.min.js"></script>
+    <script defer src="/socket.io/socket.io.js"></script>
+    <!-- <script src="script.js"></script> -->
+    <script>
+    const ROOM_ID = "<%= roomId%>" //render code on our server 
+
+    </script>
+    <script defer src="script.js"></script>
+    <style>
+        #video-grid
+        {
+            display: grid;
+            grid-column: repeat(autofill,300px);
+            grid-auto-rows: 300px;
+        }
+        video
+        {
+            width:20%;
+            height: 20%;
+            object-fit: cover;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <video id="video-grid"></video>
+</body>
+</html>

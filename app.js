@@ -5,7 +5,7 @@ const app = express()
 const server = require('http').Server(app);
 
 const port = 8000;
-const handel = require('express-handlebars')
+// const handel = require('express-handlebars')
 const io = require('socket.io')(server)
 const users ={}
 
@@ -44,10 +44,6 @@ io.on('connection',socket=>{
 })
 
 })
-
-
-
-
 
 
 server.listen(8000, () => {
